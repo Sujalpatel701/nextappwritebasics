@@ -34,7 +34,7 @@ export default function ProfilePage() {
             <h2 className="p-1 rounded bg-green-500">{data === 'nothing' ? "Nothing" : <Link href={`/profile/${data}`}>{data}
             </Link>}</h2>
         <hr />
-        <button
+        <button  
         onClick={logout}
         className="bg-blue-500 mt-4 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
         >Logout</button>
